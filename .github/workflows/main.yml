@@ -1,5 +1,5 @@
 name: cicd-no-iaac Actions
-on: workflow_dispatch
+on: [workflow_dispatch, push]
 env:
   AWS_REGION: us-west-1
   ECR_REPOSITORY: actapp
